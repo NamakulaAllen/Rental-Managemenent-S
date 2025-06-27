@@ -5,15 +5,15 @@ app_description = "App for rental management"
 app_email = "allenglain9@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    "Workspace",
+    "Dashboard Chart"
+]
 # Apps
 # ------------------
 
 # required_apps = []
 
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "rental_management",
 # 		"logo": "/assets/rental_management/logo.png",
 # 		"title": "Rental Management",
 # 		"route": "/rental_management",
